@@ -1,0 +1,7 @@
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\bin\ForumServer.dll.config
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\bin\ForumServer.dll
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\bin\ForumServer.pdb
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\obj\Debug\ForumServer.csproj.AssemblyReference.cache
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\obj\Debug\ForumServer.csproj.CoreCompileInputs.cache
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\obj\Debug\ForumServer.dll
+C:\同步文件夹\学习\网络应用编程\大作业\ForumServer\obj\Debug\ForumServer.pdb
