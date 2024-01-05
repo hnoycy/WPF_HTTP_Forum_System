@@ -1,0 +1,91 @@
+﻿<Page x:Class="ForumClient.Views.DetailPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:ForumClient.Views.DetailPage"
+      mc:Ignorable="d" d:DesignHeight="450" d:DesignWidth="800"
+      Title="个人中心">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<!-- Navbar -->
+		<Grid Grid.Row="0" Background="LightGray">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<StackPanel Orientation="Horizontal" Margin="10">
+				<Image Source="img/系统图标.png" Width="45"/>
+				<TextBlock VerticalAlignment="Center" Margin="5,0,0,0">论坛管理信息系统</TextBlock>
+			</StackPanel>
+
+			<Grid Grid.Column="1" HorizontalAlignment="Right" Margin="10">
+				<StackPanel Orientation="Horizontal">
+					<Button Content="主页" Margin="5"/>
+					<Button Content="写帖子" Margin="5"/>
+					<Button Content="注销" Margin="5"/>
+				</StackPanel>
+			</Grid>
+		</Grid>
+
+		<!-- Content -->
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<Grid Grid.Column="0" Margin="10">
+				<StackPanel>
+					<Image Source="img/头像.png" Width="120"/>
+					<TextBlock Text="芙莉莲" FontWeight="Bold" HorizontalAlignment="Center"/>
+					<TextBlock Text="女" HorizontalAlignment="Center"/>
+					<TextBlock Text="软件开发工程师" HorizontalAlignment="Center"/>
+					<StackPanel Orientation="Horizontal" Margin="0,10">
+						<StackPanel>
+							<TextBlock Text="积分"/>
+							<TextBlock Text="10" FontWeight="Bold"/>
+						</StackPanel>
+						<StackPanel Margin="20,0">
+							<TextBlock Text="等级"/>
+							<TextBlock Text="1" FontWeight="Bold"/>
+						</StackPanel>
+					</StackPanel>
+				</StackPanel>
+			</Grid>
+
+			<Grid Grid.Column="1" Margin="10">
+				<ScrollViewer>
+					<StackPanel>
+						<StackPanel Margin="0,0,0,20">
+							<TextBlock Text="他拾到了遗落凡间的信伐。" FontWeight="Bold" FontSize="16"/>
+							<TextBlock Text="2022-06-05" Foreground="Gray"/>
+							<TextBlock Text="贴主: 芙莉莲"/>
+							<TextBlock Text="在这个世界上，一个好友，可能与他作对而变成敌人;一个用慈爱所培养起来的儿女，可能变得不忠不孝;一个人所拥有的金钱可能会在最需要的时候插翅飞走。但在这个世界上，我们仍拥有一个毫不自私的，永不忘恩复义的朋友，那便是他的狗。"/>
+							<TextBlock Text="他由记得，当他还是个孩子的时候，在养了只小狗的同时，种了一棵樱桃树。而此时，树正长的旺盛。天上烈火在水坝中烧着，空中鸟雀在湖水中游着，光穿过樱桃树的叶片照在树上蝉鸣着，吵得狗不断翻着身着。他刚从学校回来，还没见它，便己听到它的犬吠，他走到不远处，便见到那只狗向他扑来，但是一条铁链的却限制了他的动作，只得努力的叫着。"></TextBlock>
+						</StackPanel>
+
+						<StackPanel Margin="0,0,0,20">
+							<TextBlock Text="回复1" FontWeight="Bold" FontSize="14"/>
+							<TextBlock Text="2022-06-06" Foreground="Gray"/>
+							<TextBlock Text="回帖人: 小明"/>
+							<TextBlock Text="我也喜欢小狗。"/>
+						</StackPanel>
+
+						<StackPanel Margin="0,0,0,20">
+							<TextBlock Text="回复2" FontWeight="Bold" FontSize="14"/>
+							<TextBlock Text="2022-06-07" Foreground="Gray"/>
+							<TextBlock Text="回帖人: 小红"/>
+							<TextBlock Text="小狗是人类最忠诚的朋友。"/>
+						</StackPanel>
+					</StackPanel>
+				</ScrollViewer>
+			</Grid>
+		</Grid>
+	</Grid>
+</Page>

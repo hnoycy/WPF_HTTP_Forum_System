@@ -1,0 +1,15 @@
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\bin\Debug\ForumClient.exe.config
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\bin\Debug\ForumClient.exe
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\bin\Debug\ForumClient.pdb
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.csproj.AssemblyReference.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\MainWindow.g.cs
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\App.g.cs
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient_MarkupCompile.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient_MarkupCompile.lref
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\MainWindow.baml
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.g.resources
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.Properties.Resources.resources
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.csproj.GenerateResource.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.csproj.CoreCompileInputs.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.exe
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.pdb
