@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="WcfGobangGameExample" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" targetNamespace="WcfGobangGameExample" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="WcfGobangGameExample/Imports">
+      <xsd:import schemaLocation="http://localhost:55236/GobangService.svc?xsd=xsd0" namespace="WcfGobangGameExample" />
+      <xsd:import schemaLocation="http://localhost:55236/GobangService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGobangService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_LoginCallBack_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:LoginCallBack" />
+  </wsdl:message>
+  <wsdl:portType name="IGobangService">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/Login" message="tns:IGobangService_Login_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginCallBack">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/LoginCallBack" message="tns:IGobangService_LoginCallBack_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

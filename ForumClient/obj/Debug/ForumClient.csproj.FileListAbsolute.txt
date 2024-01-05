@@ -1,0 +1,47 @@
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\bin\Debug\ForumClient.exe.config
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\bin\Debug\ForumClient.exe
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\bin\Debug\ForumClient.pdb
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.csproj.AssemblyReference.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\MainWindow.g.cs
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\App.g.cs
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient_MarkupCompile.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient_MarkupCompile.lref
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\MainWindow.baml
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.g.resources
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.Properties.Resources.resources
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.csproj.GenerateResource.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.csproj.CoreCompileInputs.cache
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.exe
+C:\Users\24274\Desktop\项目开发（论坛）\论坛\WPF_HTTP_Forum_System\ForumClient\obj\Debug\ForumClient.pdb
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\bin\Debug\ForumClient.exe.config
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\bin\Debug\ForumClient.exe
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\bin\Debug\ForumClient.pdb
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.csproj.AssemblyReference.cache
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\Login.g.cs
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\MainWindow.g.cs
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\App.g.cs
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient_MarkupCompile.cache
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient_MarkupCompile.lref
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\Login.baml
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\MainWindow.baml
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.g.resources
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.Properties.Resources.resources
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.csproj.GenerateResource.cache
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.csproj.CoreCompileInputs.cache
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.exe
+C:\同步文件夹\学习\网络应用编程\大作业\ForumClient\obj\Debug\ForumClient.pdb
+G:\Backup\windows project\BigHomework\ForumClient\bin\Debug\ForumClient.exe.config
+G:\Backup\windows project\BigHomework\ForumClient\bin\Debug\ForumClient.exe
+G:\Backup\windows project\BigHomework\ForumClient\bin\Debug\ForumClient.pdb
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.csproj.AssemblyReference.cache
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\MainWindow.g.cs
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\App.g.cs
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient_MarkupCompile.cache
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient_MarkupCompile.lref
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\MainWindow.baml
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.g.resources
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.Properties.Resources.resources
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.csproj.GenerateResource.cache
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.csproj.CoreCompileInputs.cache
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.exe
+G:\Backup\windows project\BigHomework\ForumClient\obj\Debug\ForumClient.pdb

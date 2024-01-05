@@ -1,0 +1,13 @@
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\GobangGameWcfService.dll.config
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\GobangGameWcfService.dll
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\GobangGameWcfService.pdb
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\obj\Debug\ForumService.csproj.AssemblyReference.cache
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\obj\Debug\ForumService.csproj.CoreCompileInputs.cache
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\obj\Debug\GobangGameWcfService.dll
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\obj\Debug\GobangGameWcfService.pdb
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\EntityFramework.dll
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\EntityFramework.SqlServer.dll
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\EntityFramework.xml
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\EntityFramework.SqlServer.xml
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\bin\zh-Hans\EntityFramework.resources.dll
+G:\Backup\windows project\BigHomework\ForumService\GobangGameWcfService\obj\Debug\ForumService.csproj.CopyComplete

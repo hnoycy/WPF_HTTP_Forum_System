@@ -1,0 +1,82 @@
+﻿<Window x:Class="ForumClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ForumClient"
+        mc:Ignorable="d"
+        Title="论坛主页" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="#EFEFEF">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Image Source="img/系统图标.png" Width="45"/>
+                <TextBlock Text="论坛管理信息系统"/>
+                <Button Content="主页" Margin="5"/>
+                <Button Content="写帖子" Margin="5"/>
+                <TextBox  x:Name="UsernameText"  Margin="5" Width="115" Text="test" />
+                <TextBox  x:Name="PasswordText" Margin="5" Width="115" Text="123" />
+                <Button x:Name="LoginButton" Content="登录" Margin="5" Click="LoginButton_Click"/>
+            </StackPanel>
+
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Vertical" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/头像.png" Width="120"/>
+                    <StackPanel Margin="10,0">
+                        <TextBlock Text="芙莉莲" FontWeight="Bold" FontSize="16"/>
+                        <TextBlock Text="女"/>
+                        <TextBlock Text="软件开发工程师"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Margin="0,10">
+                        <TextBlock Text="积分"/>
+                        <TextBlock Text="10"/>
+                    </StackPanel>
+                    <StackPanel Margin="20,10">
+                        <TextBlock Text="等级"/>
+                        <TextBlock Text="1"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="10">
+                    <StackPanel>
+                        <TextBlock Text="他拾到了遗落凡间的信伐。" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock Text="版主: 芙莉莲"/>
+                        <TextBlock Text="他由记得，当他还是个孩子的时候，在养了只小狗的同时，种了一棵樱桃树。而此时，树正长的旺盛。天上烈火在水坝中烧着，空中鸟雀在湖水中游着，光穿过樱桃树的叶片照在树上蝉鸣着，吵得狗不断翻着身着。他刚从学校回来，还没见它，便己听到它的犬吠，他走到不远处，便见到那只狗向他扑来，但是一条铁链的却限制了他的动作，只得努力的叫着。他再走近，那狗又蹦起来，前脚不注意踩到他的衣服上。他急忙躲窜，但它只当是与他之间的玩耍。他身受一脚却也不碍事，用湿布一擦即可去掉污泥。那年夏天，每次他回到老家，它都会如此迎接他。"/>
+                        <Button Content="查看详情" Margin="0,10,0,0"/>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Margin="0,10">
+                                <TextBlock Text="点击次数"/>
+                                <TextBlock Text="100"/>
+                            </StackPanel>
+                            <StackPanel Margin="20,10">
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

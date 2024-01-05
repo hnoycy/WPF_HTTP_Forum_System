@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="0b3cc634-a5ac-41d6-9692-808b5c090fa0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55236/GobangService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GobangService.wsdl" MetadataType="Wsdl" ID="2dcb1e08-197e-42af-8794-6fe094d6aa57" SourceId="1" SourceUrl="http://localhost:55236/GobangService.svc?wsdl" />
+    <MetadataFile FileName="GobangService.xsd" MetadataType="Schema" ID="f4b2d190-f30b-4d6b-9449-a8c47aebcaf9" SourceId="1" SourceUrl="http://localhost:55236/GobangService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GobangService1.xsd" MetadataType="Schema" ID="3e31809c-a461-491e-a388-8e60db5a21bb" SourceId="1" SourceUrl="http://localhost:55236/GobangService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GobangService1.wsdl" MetadataType="Wsdl" ID="2fb78117-5326-40b6-bb81-e8db569b0d8d" SourceId="1" SourceUrl="http://localhost:55236/GobangService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="GobangService.disco" MetadataType="Disco" ID="8a3a9b92-0a21-415a-bbee-312d27dc5d9e" SourceId="1" SourceUrl="http://localhost:55236/GobangService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
