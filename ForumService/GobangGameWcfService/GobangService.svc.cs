@@ -101,7 +101,9 @@ namespace GobangGameWcfService
 
         public void GetAllPosts(int UserID)
         {
-            var query = from p in dbEntity.postInfo select p;
+            var query = from p in dbEntity.postInfo
+                        orderby p.postTime descending
+                        select p;
             GetUserByID(UserID).callback.GetAllPostsCallBack(query.ToList());
         }
 
