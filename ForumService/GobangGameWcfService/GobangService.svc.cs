@@ -104,7 +104,27 @@ namespace GobangGameWcfService
             var query = from p in dbEntity.postInfo
                         orderby p.postTime descending
                         select p;
-            GetUserByID(UserID).callback.GetAllPostsCallBack(query.ToList());
+
+            List<Post> Posts = new List<Post>();
+            foreach (var post in query)
+            {
+                int posterID = 0;
+                if (post.posterID != null)
+                {
+                    posterID = (int)post.posterID;
+                }
+
+                System.DateTime postTime = DateTime.Now;
+                if (post.postTime != null)
+                {
+                    postTime = (System.DateTime)post.postTime;
+                }
+
+                Post NewPost = new Post(post.Id, GetUserByID(posterID).userName, post.title, post.content, postTime);
+                Posts.Add(NewPost);
+            }
+
+            GetUserByID(UserID).callback.GetAllPostsCallBack(Posts);
         }
 
         public void CreateNewPost(int posterID,string title,string content)

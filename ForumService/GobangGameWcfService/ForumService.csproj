@@ -88,6 +88,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Post.cs" />
     <Compile Include="commentInfo.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

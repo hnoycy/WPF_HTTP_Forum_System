@@ -37,7 +37,7 @@ namespace GobangGameWcfService
         void LoginCallBack(bool status, string message, int userID);
 
         [OperationContract(IsOneWay = true)]
-        void GetAllPostsCallBack(List<postInfo> postsList);
+        void GetAllPostsCallBack(List<Post> postsList);
 
         [OperationContract(IsOneWay = true)]
         // 帖子列表刷新
