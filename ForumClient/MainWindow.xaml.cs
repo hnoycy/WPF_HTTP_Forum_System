@@ -35,14 +35,14 @@ namespace ForumClient
         }
 
         // 获得所有帖子的回调
-        public void GetAllPostsCallBack(postInfo[] postsList)
+        public void GetAllPostsCallBack(Post[] postsList)
         {
             postStackPanel.Children.Clear();
 
             // 动态创建帖子显示控件并添加到 StackPanel 中
             foreach (var post in postsList)
             {
-                var postControl = new PostControl(post.Id,post.title, post.content);
+                var postControl = new PostControl(post);
                 postStackPanel.Children.Add(postControl);
             }
         }
@@ -112,6 +112,14 @@ namespace ForumClient
                 NewPostTitleTextBox.Text = "输入帖子标题";
                 NewPostContentTextBox.Text = "输入帖子内容";
             }
+        }
+
+        // 重写 Show 方法
+        public new void Show(string userName,string password)
+        {
+            UsernameText.Text = userName;
+            PasswordText.Text = password;
+            base.Show();
         }
     }
 }

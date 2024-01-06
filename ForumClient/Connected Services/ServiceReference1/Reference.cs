@@ -15,27 +15,27 @@ namespace ForumClient.ServiceReference1 {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="postInfo", Namespace="http://schemas.datacontract.org/2004/07/GobangGameWcfService")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Post", Namespace="http://schemas.datacontract.org/2004/07/GobangGameWcfService")]
     [System.SerializableAttribute()]
-    public partial class postInfo : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class Post : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ContentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int IdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string contentField;
+        private System.DateTime PostTimeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<System.DateTime> postTimeField;
+        private string PosterNameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> posterIDField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string titleField;
+        private string TitleField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -44,6 +44,19 @@ namespace ForumClient.ServiceReference1 {
             }
             set {
                 this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Content {
+            get {
+                return this.ContentField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ContentField, value) != true)) {
+                    this.ContentField = value;
+                    this.RaisePropertyChanged("Content");
+                }
             }
         }
         
@@ -61,53 +74,40 @@ namespace ForumClient.ServiceReference1 {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string content {
+        public System.DateTime PostTime {
             get {
-                return this.contentField;
+                return this.PostTimeField;
             }
             set {
-                if ((object.ReferenceEquals(this.contentField, value) != true)) {
-                    this.contentField = value;
-                    this.RaisePropertyChanged("content");
+                if ((this.PostTimeField.Equals(value) != true)) {
+                    this.PostTimeField = value;
+                    this.RaisePropertyChanged("PostTime");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> postTime {
+        public string PosterName {
             get {
-                return this.postTimeField;
+                return this.PosterNameField;
             }
             set {
-                if ((this.postTimeField.Equals(value) != true)) {
-                    this.postTimeField = value;
-                    this.RaisePropertyChanged("postTime");
+                if ((object.ReferenceEquals(this.PosterNameField, value) != true)) {
+                    this.PosterNameField = value;
+                    this.RaisePropertyChanged("PosterName");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> posterID {
+        public string Title {
             get {
-                return this.posterIDField;
+                return this.TitleField;
             }
             set {
-                if ((this.posterIDField.Equals(value) != true)) {
-                    this.posterIDField = value;
-                    this.RaisePropertyChanged("posterID");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string title {
-            get {
-                return this.titleField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.titleField, value) != true)) {
-                    this.titleField = value;
-                    this.RaisePropertyChanged("title");
+                if ((object.ReferenceEquals(this.TitleField, value) != true)) {
+                    this.TitleField = value;
+                    this.RaisePropertyChanged("Title");
                 }
             }
         }
@@ -164,7 +164,7 @@ namespace ForumClient.ServiceReference1 {
         void LoginCallBack(bool status, string message, int userID);
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="WcfGobangGameExample/IGobangService/GetAllPostsCallBack")]
-        void GetAllPostsCallBack(ForumClient.ServiceReference1.postInfo[] postsList);
+        void GetAllPostsCallBack(ForumClient.ServiceReference1.Post[] postsList);
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="WcfGobangGameExample/IGobangService/RefreshPostList")]
         void RefreshPostList();
