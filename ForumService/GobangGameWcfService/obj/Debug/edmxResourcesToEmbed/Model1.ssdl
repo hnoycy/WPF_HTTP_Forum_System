@@ -14,8 +14,8 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="posterID" Type="int" />
-    <Property Name="title" Type="text" />
-    <Property Name="content" Type="text" />
+    <Property Name="title" Type="nvarchar(max)" />
+    <Property Name="content" Type="nvarchar(max)" />
     <Property Name="postTime" Type="datetime" />
   </EntityType>
   <EntityType Name="userInfo">

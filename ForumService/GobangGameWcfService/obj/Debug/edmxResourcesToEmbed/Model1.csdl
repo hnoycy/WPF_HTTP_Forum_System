@@ -14,8 +14,8 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" />
     <Property Name="posterID" Type="Int32" />
-    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-    <Property Name="content" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="postTime" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityType Name="userInfo">
